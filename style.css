@@ -23,6 +23,7 @@ html, body, h1, h2, h3, h4, h5, h6, p{
 
 .home-post-filter-btn:hover, .home-post-filter-btn:focus{
     color: #fff;
+    outline: none !important;
 }
 
 .home-post-filter-menu{
@@ -38,22 +39,26 @@ html, body, h1, h2, h3, h4, h5, h6, p{
 .wide-post-head{
     position: relative;
     border-radius: 20px;
+    border: none;
 }
 
 .wide-post-username, .wide-post-like, .wide-post-save{
     position: absolute;
-    background-color: rgba(0,0,0, 0.8);
+    background-color: rgba(255, 255, 255, 1);
     padding: 7px;
     border-radius: 9999px;
-    color: #fff;
+    color: #000;
 }
 
 .wide-post-username h6, .wide-post-like h6, .wide-post-save h6{
-    color: #fff;
+    color: #000;
     display: inline-block;
 }
 
 .wide-post-username{
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 4px;
+    padding-bottom: 4px;
     top: -20px;
     left: 15px;
 }
@@ -125,29 +130,36 @@ html, body, h1, h2, h3, h4, h5, h6, p{
 
 /*Bottom navigation bar*/
 .bottom-nav{
-    background-color: #111111;
+    background-color: #000;
     color: #fff;
     padding-top: 0;
     padding-bottom: 0;
 }
-.bottom-nav-btn{
+
+.bottom-nav a{
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
+.bottom-nav ul{
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom-nav li{
+    width: 20%; text-align: center;
+}
+
 .bottom-nav-btn-active{
     color: #fff;
 }
 
-.bottom-nav a{
-    color: #a7a7a7;
-}
-
-.bottom-nav svg{
-    width: 24px;
-    height: 24px;
+.bottom-nav i{
+    font-size: 14pt;
 }
 
 /*Footer*/
