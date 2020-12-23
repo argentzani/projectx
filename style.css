@@ -45,11 +45,11 @@ html, body, h1, h2, h3, h4, h5, h6, p{
     background-color: rgba(0,0,0, 0.8);
     padding: 7px;
     border-radius: 9999px;
-    color: #000;
+    color: #fff;
 }
 
 .wide-post-username h6, .wide-post-like h6, .wide-post-save h6{
-    color: #000;
+    color: #fff;
     display: inline-block;
 }
 
