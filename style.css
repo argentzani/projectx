@@ -1,0 +1,158 @@
+@import "47fw.css";
+@import "assets/icons/bootstrap-icons.css";
+
+html, body{
+    background-color: #000;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Home header*/
+.home-header{
+
+} 
+
+.home-post-filter-btn{
+    background-color: #3a3a3a;
+    border-radius: 999999px;
+    color: #fff;
+}
+
+.home-post-filter-btn:hover, .home-post-filter-btn:focus{
+    color: #fff;
+}
+
+.home-post-filter-menu{
+    background-color: #3b3b3b;
+}
+
+/*Post*/
+.wide-post{
+    background-color: #1A1A1A;
+    border-radius: 20px;
+}
+
+.wide-post-head{
+    position: relative;
+    border-radius: 20px;
+}
+
+.wide-post-username, .wide-post-like, .wide-post-save{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 7px;
+    border-radius: 9999px;
+    color: #000;
+}
+
+.wide-post-username h6, .wide-post-like h6, .wide-post-save h6{
+    color: #000;
+    display: inline-block;
+}
+
+.wide-post-username{
+    top: -20px;
+    left: 15px;
+}
+
+.wide-post-profile-image{
+    width: 25px !important;
+    height: 25px;
+}
+.wide-post-like{
+    bottom: 10px;
+    left: 15px;
+}
+
+.liked{
+    color: #ff4539;
+}
+
+.wide-post-save{
+    bottom: 10px;
+    right: 15px;
+}
+
+.wide-post-head img{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.wide-post-info{
+
+}
+
+.wide-post-title{
+    display: inline-block;
+    color: #fff;
+}
+
+.wide-post-engine{
+    display: inline-block;
+    color: #a7a7a7;
+}
+
+.wide-post-price{
+    display: inline-block;
+    color: #ff4539;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 768px) {
+    .wide-post{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/*Pagination*/
+.page-link {
+    color: #fff;
+    background-color: #3a3a3a;
+    border: 1px solid #3a3a3a;
+}
+
+.page-item.disabled .page-link{
+    color: #a7a7a7;
+    background-color: #3a3a3a;
+    border: 1px solid #3a3a3a;
+}
+
+
+/*Bottom navigation bar*/
+.bottom-nav{
+    background-color: #111111;
+    color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.bottom-nav-btn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bottom-nav-btn-active{
+    color: #fff;
+}
+
+.bottom-nav a{
+    color: #a7a7a7;
+}
+
+.bottom-nav svg{
+    width: 24px;
+    height: 24px;
+}
+
+/*Footer*/
+.footer{
+
+}

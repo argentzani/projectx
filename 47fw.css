@@ -1,0 +1,51 @@
+/*Importimi Playfair*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&display=swap');
+
+.sans-serif{
+  font-family: 'Playfair', Times, serif;
+}
+
+.serif{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/*Propertis per scrollbar*/
+::-webkit-scrollbar {width: 8px;}
+::-webkit-scrollbar-track {background-color: #000;}
+::-webkit-scrollbar-thumb {
+    background-color: #5a5a68;
+    border-radius: 10px;
+}
+
+/*Pastro mbushje dhe hapsirat e elementeve*/
+.rmp{margin: 0; padding: 0;}
+.rmp-t{margin-top: 0; padding-top: 0;}
+.rmp-r{margin-right: 0; padding-right: 0;}
+.rmp-l{margin-left: 0; padding-left: 0;}
+.rmp-b{margin-bottom: 0; padding-bottom: 0;}
+
+.rm{margin: 0;}
+.rm-t{margin-top: 0;}
+.rm-r{margin-right: 0;}
+.rm-l{margin-left: 0;}
+.rm-b{margin-bottom: 0;}
+
+.rp{padding: 0;}
+.rp-t{padding-top: 0;}
+.rp-r{padding-right: 0;}
+.rp-l{padding-left: 0;}
+.rp-b{padding-bottom: 0;}
+
+/*text align*/
+.align-center{text-align: center;}
+.align-left{text-align: left;}
+.align-right{text-align: right;}
+.align-justify{text-align: justify;}
+
+/*Vendos element me gjersi te percaktuar ne qender*/
+.centered-element{
+    margin-left: auto;
+    margin-right: auto;
+}
+.float-left{float: left;}  
+.float-right{float: right;}
