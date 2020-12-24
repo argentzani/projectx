@@ -2,7 +2,7 @@
 @import "assets/icons/bootstrap-icons.css";
 
 html, body{
-    background-color: #000;
+    background-color: #111111;
 }
 
 html, body, h1, h2, h3, h4, h5, h6, p{
@@ -32,8 +32,9 @@ html, body, h1, h2, h3, h4, h5, h6, p{
 
 /*Post*/
 .wide-post{
-    background-color: #1A1A1A;
+    background-color: #1b1b1b;
     border-radius: 20px;
+    box-shadow:0px 8px 15px rgba(0, 0, 0, 0.4);
 }
 
 .wide-post-head{
@@ -131,7 +132,7 @@ html, body, h1, h2, h3, h4, h5, h6, p{
 
 /*Bottom navigation bar*/
 .bottom-nav{
-    background-color: #000;
+    background-color: #111111;
     color: #fff;
     padding-top: 0;
     padding-bottom: 0;
