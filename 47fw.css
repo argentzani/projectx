@@ -11,9 +11,9 @@
 
 /*Propertis per scrollbar*/
 ::-webkit-scrollbar {width: 8px;}
-::-webkit-scrollbar-track {background-color: #000;}
+::-webkit-scrollbar-track {background-color: #111;}
 ::-webkit-scrollbar-thumb {
-    background-color: #5a5a68;
+    background-color: #3a3a3a;
     border-radius: 10px;
 }
 
