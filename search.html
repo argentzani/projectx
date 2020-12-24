@@ -52,15 +52,125 @@
     </nav>
 
     <div class="container">
-        <h1>Search</h1>
+        <h1>Kërko</h1>
+        <form class="d-flex main-search centered-element">
+          <input class="form-control main-search-input" type="search" placeholder="Kërko" aria-label="Search">
+          <button class="main-search-button" type="submit">Kërko</button>
+        </form>
+        
+        <div class="search-filter py-1 my-4 centered-element">
+          <div class="row search-filter-top-bar align-center clean-link" id="search-filter-top-bar">
+
+            <div class="col-3">
+              <div class="search-filter-top-bar-element search-filter-top-bar-active">
+                <a href="#">
+                  <i class="bi bi-truck"></i>
+                  <h6 class="rmp">Automjete</h6>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="search-filter-top-bar-element">
+                <a href="#">
+                  <i class="bi bi-building"></i>
+                  <h6 class="rmp">Prona</h6>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="search-filter-top-bar-element">
+                <a href="#">
+                  <i class="bi bi-cpu"></i>
+                  <h6 class="rmp">Elektronikë</h6>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="search-filter-top-bar-element">
+                <a href="#">
+                  <i class="bi bi-handbag"></i>
+                  <h6 class="rmp">Veshje</h6>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="search-filter-container py-1 my-2">
+
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <div class="input-group mb-3">
+                  <select class="search-filter-selector" id="inputGroupSelect01">
+                    <option selected style="display: none;">Marka</option>
+                    <option value="1">Audi</option>
+                    <option value="2">BMW</option>
+                    <option value="3">Mercedes-Benz</option>
+                    <option value="4">Volkswagen</option>
+                    <option value="5">Tesla</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="input-group mb-3">
+                  <select class="search-filter-selector" id="inputGroupSelect01">
+                    <option selected style="display: none;">Modeli</option>
+                    <option value="1">Audi</option>
+                    <option value="2">BMW</option>
+                    <option value="3">Mercedes-Benz</option>
+                    <option value="4">Volkswagen</option>
+                    <option value="5">Tesla</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="input-group mb-3">
+                  <select class="search-filter-selector" id="inputGroupSelect01">
+                    <option selected style="display: none;">Viti minimal</option>
+                    <option value="1">Audi</option>
+                    <option value="2">BMW</option>
+                    <option value="3">Mercedes-Benz</option>
+                    <option value="4">Volkswagen</option>
+                    <option value="5">Tesla</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <div class="input-group mb-3">
+                  <select class="search-filter-selector" id="inputGroupSelect01">
+                    <option selected style="display: none;">Çmimi maksimal</option>
+                    <option value="1">500 €</option>
+                    <option value="2">1000 €</option>
+                    <option value="3">1500 €</option>
+                    <option value="4">2000 €</option>
+                    <option value="5">2500 €</option>
+                    <option value="6">3000 €</option>
+                    <option value="7">4000 €</option>
+                    <option value="8">5000 €</option>
+                    <option value="9">6000 €</option>
+                    <option value="10">deri ne 100.000 € do jete maksimalja ktu</option>
+                  </select>
+                </div>
+              </div>
+              <div>
+                <button class="search-filter-submit-button float-right" type="button">Button</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
     </div>
 
-
+    
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     
-    <!--IONIC icons-->
-    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <!--JS-->
+    <script src="index.js"></script>
 
   </body>
 </html>

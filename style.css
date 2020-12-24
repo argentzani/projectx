@@ -9,7 +9,7 @@ html, body, h1, h2, h3, h4, h5, h6, p{
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/*Home.html*/
 /*Home header*/
 .home-header{
 
@@ -108,7 +108,7 @@ html, body, h1, h2, h3, h4, h5, h6, p{
 
 .wide-post-price{
     display: inline-block;
-    color: #ff4539;
+    color: #2fd159;
     font-weight: 600;
 }
 
@@ -170,4 +170,100 @@ html, body, h1, h2, h3, h4, h5, h6, p{
 /*Footer*/
 .footer{
 
+}
+
+/*Search.html*/
+.main-search{
+    background-color: #1b1b1b;
+    border-radius: 9999px;
+    color: #fff !important;
+    max-width: 500px;
+}
+
+.main-search-input{
+    background: none;
+    box-shadow: none;
+    border: none;
+    color: #fff !important;
+    outline: none;
+}
+
+.main-search-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #a7a7a7;
+    opacity: 1; /* Firefox */
+}
+
+.main-search-button{
+    background-color: #3b3b3b;
+    border-radius: 9999px;
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    outline: none !important;
+}
+
+.main-search-button:hover{
+    color: #fff;
+}
+
+.main-search-input:hover, .main-search-input:focus{
+    background: none;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.search-filter{
+    background-color: #1b1b1b;
+    border-radius: 15px;
+    max-width: 500px;
+}
+
+.search-filter-top-bar-element{
+    cursor: pointer;
+}
+
+.search-filter-top-bar i, .search-filter-top-bar h6{
+    color: #a7a7a7;
+    font-weight: 600;
+}
+
+.search-filter-top-bar-active i, .search-filter-top-bar-active h6{
+    color: #0a84ff;
+}
+
+.search-filter-selector{
+    display: block;
+    width: 100%;
+    padding: .375rem 1.75rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    vertical-align: middle;
+    background-color: #3b3b3b;
+    border: 1px solid #3b3b3b;
+    border-radius: .25rem;
+    outline: none;
+}
+
+.search-filter-container{
+    padding: 10px;
+}
+
+.search-filter-submit-button{
+    background-color: #3b3b3b;
+    border-radius: 9999px;
+    color: #fff;
 }

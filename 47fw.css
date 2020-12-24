@@ -49,3 +49,13 @@
 }
 .float-left{float: left;}  
 .float-right{float: right;}
+
+/**/
+.clean-link a{
+  text-decoration: none;
+}
+
+.nav-active-element{
+  color: #ffffff;
+  background-color: #000000;
+}
