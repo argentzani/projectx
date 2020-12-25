@@ -217,7 +217,7 @@ html, body, h1, h2, h3, h4, h5, h6, p{
     color: #fff;
 }
 
-.main-search-input:hover, .main-search-input:focus,{
+.main-search-input:hover, .main-search-input:focus{
     background: none;
     box-shadow: none;
     border: none;
