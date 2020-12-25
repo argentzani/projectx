@@ -193,7 +193,7 @@ html, body, h1, h2, h3, h4, h5, h6, p{
     opacity: 1; /* Firefox */
 }
 
-.main-search-button{
+.main-search-button, .search-filter-submit-button{
     background-color: #3b3b3b;
     border-radius: 9999px;
     border: 1px solid transparent;
@@ -213,11 +213,11 @@ html, body, h1, h2, h3, h4, h5, h6, p{
     outline: none !important;
 }
 
-.main-search-button:hover{
+.main-search-button:hover, .search-filter-submit-button:hover{
     color: #fff;
 }
 
-.main-search-input:hover, .main-search-input:focus{
+.main-search-input:hover, .main-search-input:focus,{
     background: none;
     box-shadow: none;
     border: none;
@@ -260,10 +260,4 @@ html, body, h1, h2, h3, h4, h5, h6, p{
 
 .search-filter-container{
     padding: 10px;
-}
-
-.search-filter-submit-button{
-    background-color: #3b3b3b;
-    border-radius: 9999px;
-    color: #fff;
 }
