@@ -1,0 +1,22 @@
+.bg-blue{background-color: #0071e3;}
+.bg-green{background-color: #2fd159;}
+.bg-red{background-color: #ff4539;}
+.bg-yellow{background-color: #ffd60a;}
+.bg-light-blue{background-color: #63d2ff;}
+.bg-light{background-color: #f5f5f7;}
+.bg-light-gray{background-color: #7d7d82;}
+.bg-dark-gray{background-color: #1d1d1f;}
+
+.txt-light{color: #f5f5f7; !important}
+.txt-dark{color: #1d1d1f; !important}
+.txt-secondary{color: #86868b; !important}
+
+.btn-gray{
+    background-color: #7d7d82 !important;
+    color:#f5f5f7 !important;
+}
+
+.btn-gray:active, .btn-gray:hover{
+    background-color: #aeaeb2 !important;
+    color:#f5f5f7 !important;
+}
