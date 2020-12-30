@@ -7,9 +7,9 @@
 .bg-light-gray{background-color: #7d7d82;}
 .bg-dark-gray{background-color: #1d1d1f;}
 
-.txt-light{color: #f5f5f7; !important}
-.txt-dark{color: #1d1d1f; !important}
-.txt-secondary{color: #86868b; !important}
+.txt-light{color: #f5f5f7;}
+.txt-dark{color: #1d1d1f;}
+.txt-secondary{color: #86868b;}
 
 .btn-gray{
     background-color: #7d7d82 !important;

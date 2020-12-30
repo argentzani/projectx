@@ -282,6 +282,10 @@ html, body, h1, h2, h3, h4, h5, h6, p{
     color: #fff;
 }
 
+.add-post-type{
+    background-color: #3b3b3b;
+}
+
 .x-selector{
     cursor: pointer; 
     -webkit-appearance: none;
@@ -325,4 +329,14 @@ html, body, h1, h2, h3, h4, h5, h6, p{
     color: #fff !important;
     background-color: #666666 !important;
     border: 1px solid #666666 !important;
+}
+
+.x-radio-input{
+    cursor: pointer;
+}
+
+/*Notications*/
+.nc-card{
+    background-color: #1b1b1b;
+    color: #fff;
 }
