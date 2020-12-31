@@ -9,11 +9,12 @@ html, body, h1, h2, h3, h4, h5, h6, p{
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
+.page-title{
+ font-weight: 600;
+}
+
 /*Home.html*/
 /*Home header*/
-.home-header{
-
-} 
 
 .home-post-filter-btn{
     background-color: #3a3a3a;
