@@ -43,6 +43,19 @@ html, body, h1, h2, h3, h4, h5, h6, p{
     border: none;
 }
 
+.wide-post-head-image{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.wide-post-loading{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .wide-post-username, .wide-post-like, .wide-post-save{
     position: absolute;
     background-color: rgba(255, 255, 255, 1);
@@ -84,17 +97,6 @@ html, body, h1, h2, h3, h4, h5, h6, p{
 .wide-post-save{
     bottom: 10px;
     right: 15px;
-}
-
-.wide-post-head img{
-    width: 100%;
-    max-width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.wide-post-info{
-
 }
 
 .wide-post-title{
